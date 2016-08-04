@@ -1,3 +1,8 @@
+/** 
+ * Copied/pasted this hook from https://github.com/cowbell/cordova-plugin-geofence/blob/master/hooks/add_swift_support.js
+ * 
+ * Many many thanks to those who provided this hook! :)
+ ***/
 var child_process = require('child_process'),
     fs = require('fs'),
     path = require('path');
