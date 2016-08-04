@@ -1,3 +1,8 @@
+Supported Platform
+==================
+
+iOS/Android
+
 Installation
 ============
 
