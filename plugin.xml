@@ -29,4 +29,19 @@
         </config-file>
         <source-file src="src/android/SMSSenderPlugin.java" target-dir="src/com/ferdinandsilva/android" />
     </platform>
+
+    <platform name="ios">
+        <hook type="after_plugin_install" src="hooks/add_swift_support.js" />
+
+        <config-file target="config.xml" parent="/*">
+          <feature name="SMSSenderPlugin">
+            <param name="ios-package" value="SMSSenderPlugin"/>
+          </feature>
+        </config-file>
+
+        <header-file src="src/ios/SMSSenderPlugin-Bridging-Header.h" />
+        <source-file src="src/ios/SMSSenderPlugin.swift"/>
+
+    </platform>
+
 </plugin>
