@@ -28,10 +28,13 @@ import MessageUI
         switch result.rawValue {
             case MessageComposeResultCancelled.rawValue :
                 //Canceled
+                print("Cancelled!")
             case MessageComposeResultFailed.rawValue :
                 //Failed
+                print("Failed")
             case MessageComposeResultSent.rawValue :
                 //Message Sent
+                print("Sent")
             default:
                 break
         }
