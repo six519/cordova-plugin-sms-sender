@@ -43,7 +43,7 @@ public class SMSSenderPlugin extends CordovaPlugin {
         Intent messageSentIntent = new Intent(MESSAGE_SENT);
         PendingIntent messageSentPendingIntent = PendingIntent.getBroadcast(SMSSenderPlugin.thisContext, 0, messageSentIntent, PendingIntent.FLAG_UPDATE_CURRENT);
 
-        registerReceiver(new BroadcastReceiver() {
+        SMSSenderPlugin.thisContext.registerReceiver(new BroadcastReceiver() {
             @Override
             public void onReceive(Context context, Intent intent) {
 
