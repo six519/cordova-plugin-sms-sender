@@ -38,7 +38,7 @@ public class SMSSenderPlugin extends CordovaPlugin {
         SMSSenderPlugin.thisContext = cordova.getActivity().getApplicationContext();
     }
     
-    public void sendMessage(String mobile_number, String message, CallbackContext callbackContext) {
+    public void sendMessage(String mobile_number, String message, final CallbackContext callbackContext) {
         
         Intent messageSentIntent = new Intent(MESSAGE_SENT);
         PendingIntent messageSentPendingIntent = PendingIntent.getBroadcast(SMSSenderPlugin.thisContext, 0, messageSentIntent, PendingIntent.FLAG_UPDATE_CURRENT);
