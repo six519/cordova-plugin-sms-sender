@@ -1,0 +1,42 @@
+{
+  "name": "cordova-plugin-sms-sender",
+  "version": "1.0.0",
+  "description": "Cordova Plugin To Send SMS (iOS/Android)",
+  "cordova": {
+    "id": "cordova-plugin-sms-sender",
+    "platforms": [
+      "android",
+      "ios"
+    ]
+  },
+  "dependencies": {
+    "cordova": "undefined6.3.0"
+  },
+  "devDependencies": {
+    "cordova": "undefined6.3.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/six519/cordova-plugin-sms-sender.git"
+  },
+  "keywords": [
+    "cordova",
+    "sms",
+    "sender",
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios"
+  ],
+  "engines": [
+    {
+      "name": "cordova-plugman",
+      "version": ">=4.2.0"
+    }
+  ],
+  "author": "Ferdinand E. Silva",
+  "license": "Apache 2.0",
+  "bugs": {
+    "url": "https://github.com/six519/cordova-plugin-sms-sender/issues"
+  },
+  "homepage": "https://github.com/six519/cordova-plugin-sms-sender#readme"
+}
