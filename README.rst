@@ -8,6 +8,10 @@ Installation
 
 ``cordova plugin add https://github.com/six519/cordova-plugin-sms-sender.git``
 
+or via npm
+
+``cordova plugin add cordova-plugin-sms-sender``
+
 Usage
 =====
 ::
